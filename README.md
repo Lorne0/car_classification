@@ -10,13 +10,15 @@
 ![](car.jpg)
 
 ## There are 6 experiments as you can see in the picture above:
-ex1.	pre-trained ImageNet model -> Web model (the model is provided by the author in the Github Gist)
-ex2.	Web model -> Web best model
-ex3.	[pre-trained ImageNet model](http://vision.princeton.edu/pvt/GoogLeNet/) -> SV model
-ex4.	Web best model -> SV model
-ex5.	pre-trained ImageNet model -> Mix(Web+SV) as 431 class
-ex6.	pre-trained ImageNet model -> Mix(Web+SV) as 531 class
+1.	pre-trained ImageNet model -> Web model (the model is provided by the author in the Github Gist)
+2.	Web model -> Web best model
+3.	[pre-trained ImageNet model](http://vision.princeton.edu/pvt/GoogLeNet/) -> SV model
+4.	Web best model -> SV model
+5.	pre-trained ImageNet model -> Mix(Web+SV) as 431 class
+6.	pre-trained ImageNet model -> Mix(Web+SV) as 531 class
 #### The last two experiments are different because the intersection of Web and SV are only 181 classes, not all 281 classes in SV     
 #### So 431 class is for those who have intersection, 531 are their union
+
+#### See each readme.md file in each exp folder
 
 
