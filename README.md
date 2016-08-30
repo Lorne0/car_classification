@@ -84,17 +84,6 @@
 
 
 
-<table>
-	<tr>
-		<td>*one*</td>
-		<td>[a link](http://google.com)</td>
-	</tr>
-</table>
-
-
-
-
-
 ## Experiment Flow:
 ![](car.jpg)
 
