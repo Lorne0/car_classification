@@ -1,0 +1,20 @@
+This part of data is the surveillance-nature data in the CompCars dataset.
+(http://mmlab.ie.cuhk.edu.hk/datasets/comp_cars/index.html)
+
+If you use the dataset in your work, please cite our CVPR 2015 paper:
+Linjie Yang, Ping Luo, Chen Change Loy, Xiaoou Tang. "A Large-Scale Car Dataset for Fine-Grained Categorization and Verification", In Computer Vision and Pattern Recognition (CVPR), 2015.
+
+Descriptions of the files are as follows:
+
+-image:
+  Stores all car images in the path format 'surveillance_model_id/image_name.jpg'.
+-color_list.mat:
+  A MATLAB cell matrix containing all color annotations for each image. Each row is the annotation for one image with the first element being the path of the image and the second element being the color id. The meaning of the color ids are: -1 - unrecognized, 0 - black, 1 - white, 2 - red, 3 - yellow, 4 - blue, 5 - green, 6 - purple, 7 - brown, 8 - champagne, 9 - silver.
+-sv_make_model_name.mat:
+  A MATLAB cell matrix containing make and model names for each 'surveillance_model_id'. For one 'surveillance_model_id', sv_make_model_name{surveillance_model_id,1} and sv_make_model_name{surveillance_model_id,2} are the corresponding make and model name. sv_make_model_name{surveillance_model_id,3} is the 'model_id' of the same model in the web-nature data. For each model in the surveillance data, there is a same model in the web-nature data.
+-train_surveillance.txt, test_surveillance.txt:
+  The train/test splits for the fine-grained classification experiments on surveillance data described in the updated arXiv paper:
+    A Large-Scale Car Dataset for Fine-Grained Categorization and Verification
+	L. Yang, P. Luo, C. C. Loy, X. Tang, arXiv:1506.08959, 2015
+	http://arxiv.org/abs/1506.08959
+  
