@@ -1,0 +1,22 @@
+net: "./train_val_googlenet.prototxt"
+test_iter: 500
+test_interval: 1000 
+test_initialization: false
+
+iter_size: 4
+
+max_iter: 30000	
+base_lr: 0.00001			
+lr_policy: "fixed"
+
+momentum: 0.9			
+weight_decay: 0.0002 	
+display: 20
+
+snapshot: 1000
+snapshot_prefix: "nop1/googlenet_finetune_web_car"
+solver_mode: GPU
+
+device_id: 3 
+
+random_seed: 34234562302122                 
