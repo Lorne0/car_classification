@@ -15,9 +15,10 @@
 3.	[pre-trained ImageNet model](http://vision.princeton.edu/pvt/GoogLeNet/) -> SV model
 4.	Web best model -> SV model
 5.	pre-trained ImageNet model -> Mix(Web+SV) as 431 class
-6.	pre-trained ImageNet model -> Mix(Web+SV) as 531 class
+6.	pre-trained ImageNet model -> Mix(Web+SV) as 531 class   
+
 #### The last two experiments are different because the intersection of Web and SV are only 181 classes, not all 281 classes in SV     
-#### So 431 class is for those who have intersection, 531 are their union
+#### So 431 class is for those who have intersection, 531 are their union   
 
 #### See each readme.md file in each exp folder
 
