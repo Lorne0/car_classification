@@ -22,4 +22,5 @@
 
 #### See each readme.md file in each exp folder
 
-
+#### You have to collect all images into a dir. The example code is cptodir.py .
+#### Then you have to resize the images and crop them. The example code is prep.sh .
